@@ -85,7 +85,7 @@ public void OnConfigsExecuted()
 {
 	GetConVarString(g_CvarSoundName, g_soundName, MAX_FILE_LEN);
 	char buffer[MAX_FILE_LEN];
-    if (PrecacheSound(g_soundName, true)) {
+	if (PrecacheSound(g_soundName, true)) {
 		PrintToServer("Precache of %s succesful",g_soundName);	
 	} else {
 		PrintToServer("Precache of %s FAILED ----",g_soundName);
