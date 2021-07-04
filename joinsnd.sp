@@ -54,7 +54,7 @@ public void OnPluginStart()
 	AutoExecConfig_SetCreateFile(true);
 	
 	// Set file, extension is optional aswell as the second parameter which defaults to sourcemod
-	AutoExecConfig_SetFile("joinsnd", "sourcemod");
+	AutoExecConfig_SetFile("sm_joinsnd", "sourcemod");
 	
 	// Create the version cvar
 	CreateConVar("sm_welcome_snd_version", PLUGIN_VERSION, "Welcome Sound Version", FCVAR_SPONLY|FCVAR_REPLICATED|FCVAR_NOTIFY);
